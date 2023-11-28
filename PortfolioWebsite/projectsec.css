@@ -1,0 +1,80 @@
+.projectsec {
+    background-color: rgb(20, 20, 20);
+    padding: 245px 100px;
+}
+
+.container_projects {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.project-abovetext {
+    margin-top: 0;
+    text-align: center;
+}
+
+.project1-box h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.project1-box h3 {
+    margin: 0;
+    color: white;
+}
+
+.project1-box img {
+    cursor: pointer;
+    width: 275px;
+    transition: width 0.3s;
+}
+
+.project1-box img:hover {
+    width: 295px;
+}
+
+.project1-box p {
+    font-size: 16px;
+}
+
+.project1-box {
+    border-radius: 55px;
+    padding: 50px 25px;
+    background-color: rgb(24, 24, 24);
+    transition: padding 0.3s;
+}
+
+.span-abgeschlossen {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-abgeschlossen:hover {
+    color: white;
+}
+
+.span-community {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-community:hover {
+    color: white;
+}
+
+.span-sell {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-sell:hover {
+    color: white;
+}

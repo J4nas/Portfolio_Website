@@ -1,0 +1,61 @@
+.homesec {
+    background-color: rgb(20, 20, 20);
+    z-index: 1;
+    position: relative;
+    padding: 245px 100px;
+}
+
+.container_welcome {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.hometext {
+    margin-right: 100px;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    margin: 0;
+}
+
+p.welcome2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.websitewort {
+    font-weight: 800; 
+}
+
+.websitewort a {
+    text-decoration: none;
+    color: #82A6D2;
+    transition: color 0.3s;  
+}
+
+.websitewort a:hover {
+    color: white;
+}
+
+.homepic {
+    width: 11%;
+    border-radius: 105px;
+    transition: width 0.3s;
+}
+
+.homepic:hover {
+    width: 12%;
+}
