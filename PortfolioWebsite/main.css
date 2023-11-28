@@ -1,0 +1,24 @@
+::selection {
+    background-color: #82a6d226;
+    color: white; 
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    font-size: 20px;
+    background-color: #82a6d226;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 13px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-bottom: 11px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #82a6d23d;
+}

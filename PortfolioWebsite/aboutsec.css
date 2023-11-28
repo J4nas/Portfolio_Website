@@ -1,0 +1,111 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.aboutsec {
+    background-color: rgb(24, 24, 24);
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 75px 100px;
+}
+
+.container_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Image {
+    margin-left: 250px;
+    text-align: left;
+    width: 30%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 75px;
+    margin-right: 150px;
+    margin-bottom: 0;
+    transition: width 0.3s;
+    cursor: pointer;
+}
+
+.About-Image:hover {
+    width: 31%;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+    padding: 0;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .8rem;
+}
+
+p {
+    font-size: 16px;
+    color: #c3c3c3;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.highlight {
+    display: inline;
+    background-color: #82a6d226;
+    transition: color 0.45s;
+}
+
+.highlight:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.skills {
+    margin-top: 35px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    margin-top: 0;
+    color: white;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #E9ECEF;
+    height: 5px;
+    position: relative;
+    width: 59%;
+}
+
+.progress {
+    background: #82A6D2;
+    border-radius: 5px;
+    height: 100%;
+    text-align: right;
+    position: relative;
+    font-size: 12px;
+    color: #fff;
+    line-height: 8px;
+    border-radius: 5px;
+}
