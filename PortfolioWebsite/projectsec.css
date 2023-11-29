@@ -1,13 +1,13 @@
 .projectsec {
     background-color: rgb(20, 20, 20);
-    padding: 245px 100px;
+    padding: 80px 100px;
 }
 
 .container_projects {
     display: flex; 
-    justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
     height: 100%;
     font-weight: 900;
     line-height: 60px;
@@ -37,6 +37,8 @@
     font-size: 16px;
 }
 
+.project3-box,
+.project2-box,
 .project1-box {
     border-radius: 55px;
     padding: 50px 25px;
@@ -98,13 +100,6 @@
     font-size: 16px;
 }
 
-.project2-box {
-    border-radius: 55px;
-    padding: 50px 25px;
-    background-color: rgb(24, 24, 24);
-    transition: padding 0.3s;
-}
-
 .span-website {
     background-color: #82a6d226;
     transition: color 0.3s;
@@ -147,24 +142,17 @@
 
 .project3-box img {
     cursor: pointer;
-    width: 205px;
+    width: 170px;
     transition: width 0.3s;
     border-radius: 50px;
 }
 
 .project3-box img:hover {
-    width: 225px;
+    width: 180px;
 }
 
 .project3-box p {
     font-size: 16px;
-}
-
-.project3-box {
-    border-radius: 55px;
-    padding: 50px 25px;
-    background-color: rgb(24, 24, 24);
-    transition: padding 0.3s;
 }
 
 .span-hauptproject {
@@ -198,7 +186,45 @@
 }
 
 .projects-boxs {
-    justify-content: center;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.project-abovetext {
+    margin-bottom: 50px;
+}
+
+.project-abovetext p {
+    font-size: 16px;
+}
+
+.span-entwicklung {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-entwicklung:hover {
+    color: white;
+}
+
+.span-projekte {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-projekte:hover {
+    color: white;
+}
+
+.span-erfahrung {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-erfahrung:hover {
+    color: white;
 }

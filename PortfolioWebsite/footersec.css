@@ -1,0 +1,52 @@
+.footersec {
+    background-color: rgb(20, 20, 20);
+    padding: 30px;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footertext {
+    margin-bottom: 5px;
+}
+
+.footerlis ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.footerlis li {
+    color: #c3c3c3;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footerlis a {
+    transition: color 0.3s;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
+.footerlis a:hover,
+.footerlis li:hover {
+    color: white;
+}
+
+.span-dc,
+.span-email {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-dc:hover,
+.span-email:hover {
+    color: white;
+}

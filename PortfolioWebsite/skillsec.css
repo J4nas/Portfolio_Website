@@ -1,0 +1,167 @@
+.skillsec {
+    background-color: rgb(24, 24, 24);
+    padding: 75px 100px;
+}
+
+.container_skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill_text {
+   margin-bottom: 50px;
+}
+
+.skills_boxen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill13-box img,
+.skill8-box img,
+.skill7-box img,
+.skill4-box img,
+.skill2-box img,
+.skill1-box img {
+    padding: 20px 20px;
+    background-color: rgb(20, 20, 20);
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill13-box img:hover,
+.skill8-box img:hover,
+.skill7-box img:hover,
+.skill4-box img:hover,
+.skill2-box img:hover,
+.skill1-box img:hover {
+    padding: 26px;
+}
+
+
+.skill3-box img {
+    padding: 8px;
+    background-color: rgb(20, 20, 20);
+    height: 125px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill3-box img:hover {
+    padding: 14px;
+}
+
+.skill5-box img {
+    padding: 15px;
+    background-color: rgb(20, 20, 20);
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill5-box img:hover {
+    padding: 21px;
+}
+
+.skill6-box img {
+    padding: 15px;
+    background-color: rgb(20, 20, 20);
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill6-box img:hover {
+    padding: 21px;
+}
+
+.skill9-box img {
+    padding: 15px;
+    background-color: rgb(20, 20, 20);
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill9-box img:hover {
+    padding: 21px;
+}
+
+.skill11-box img,
+.skill10-box img {
+    padding: 15px;
+    background-color: rgb(20, 20, 20);
+    height: 107px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill11-box img:hover,
+.skill10-box img:hover {
+    padding: 21px;
+}
+
+.skill12-box img {
+    padding: 15px;
+    background-color: rgb(20, 20, 20);
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s;
+    cursor: pointer;
+}
+
+.skill12-box img:hover {
+    padding: 21px;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.row1 > div,
+.row2 > div {
+    flex-basis: calc(25% - 15px);
+}
+
+.row2 .skill9-box {
+    flex-basis: 100%; 
+}
+
+.span-fähigkeiten,
+.span-contuine,
+.span-entwicklr {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-fähigkeiten:hover,
+.span-contuine:hover,
+.span-entwicklr:hover {
+    color: white;
+}
