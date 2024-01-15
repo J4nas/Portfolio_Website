@@ -1,0 +1,56 @@
+.footersec {
+    background-color: rgb(20, 20, 20);
+    padding: 28px 100px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #C3C3C3;
+}
+
+.footer-text {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-text h2 {
+    margin-top: 0;
+}
+
+.span-prvmail {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-prvmail:hover {
+    color: white;
+}
+
+.span-socials {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-socials:hover {
+    color: white;
+}
+
+.footer-text p {
+    margin-bottom: 0;
+}

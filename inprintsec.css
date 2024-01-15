@@ -1,0 +1,93 @@
+.inprintsec1 {
+    background-color: rgb(20, 20, 20);
+    padding: 75px 100px;
+}
+
+.container-inprint1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.span-inforechtlich {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-inforechtlich:hover {
+    color: white;
+}
+
+.inprintsec2 {
+    background-color: rgb(24, 24, 24);
+    padding: 75px 100px;
+}
+
+.inprintsec2 h3 {
+    color: white;
+    font-weight: 600;
+}
+
+.container-inprint2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inprints-infos12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+    text-align: center;
+}
+
+.inprint-info2 h3,
+.inprint-info1 h3 {
+    margin-top: 0;
+}
+
+.inprintsec3 {
+    background-color: rgb(20, 20, 20);
+    padding: 75px 100px;
+}
+
+.container-inprint3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboveinprint3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.aboveinprint3 h2 {
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.container-inprint3 h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.inprint-info3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.inprint-infos3ü {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}

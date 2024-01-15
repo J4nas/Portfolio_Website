@@ -1,0 +1,238 @@
+.projectsec {
+    background-color: rgb(20, 20, 20);
+    padding: 75px 100px;
+}
+
+.container_projects {
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.projects-boxs {
+    display: flex;
+    flex-direction: row; 
+    gap: 50px;
+}
+
+.project-abovetext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-abovetext h2 {
+    margin-top: 0;
+}
+
+.project1-box h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.project1-box h3 {
+    margin: 0;
+    color: white;
+}
+
+.project1-box img {
+    cursor: pointer;
+    width: 275px;
+    transition: width 0.3s;
+}
+
+.project1-box img:hover {
+    width: 295px;
+}
+
+.project1-box p {
+    font-size: 16px;
+}
+
+.project1-box {
+    border-radius: 55px;
+    padding: 50px 25px;
+    background-color: rgb(24, 24, 24);
+    transition: padding 0.3s;
+}
+
+.span-abgeschlossen {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-abgeschlossen:hover {
+    color: white;
+}
+
+.span-community {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-community:hover {
+    color: white;
+}
+
+.span-sell {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-sell:hover {
+    color: white;
+}
+
+.project2-box h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.project2-box h3 {
+    margin: 0;
+    color: white;
+}
+
+.project2-box img {
+    cursor: pointer;
+    width: 250px;
+    transition: width 0.3s;
+    margin-bottom: 0;
+}
+
+.project2-box img:hover {
+    width: 270px;
+}
+
+.project2-box p {
+    font-size: 16px;
+}
+
+.project2-box {
+    border-radius: 55px;
+    padding: 50px 25px;
+    background-color: rgb(24, 24, 24);
+    transition: padding 0.3s;
+}
+
+.span-entwicklung {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-entwicklung:hover {
+    color: white;
+}
+
+.span-selfcode {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-selfcode:hover {
+    color: white;
+}
+
+.span-com {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-com:hover {
+    color: white;
+}
+
+.project3-box h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.project3-box h3 {
+    margin: 0;
+    color: white;
+}
+
+.project3-box img {
+    cursor: pointer;
+    width: 230px;
+    transition: width 0.3s;
+    margin-bottom: 0;
+}
+
+.project3-box img:hover {
+    width: 250px;
+}
+
+.project3-box p {
+    font-size: 16px;
+}
+
+.project3-box {
+    border-radius: 55px;
+    padding: 50px 25px;
+    background-color: rgb(24, 24, 24);
+    transition: padding 0.3s;
+}
+
+.span-aufbau {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-aufbau:hover {
+    color: white;
+}
+
+.span-dcserver {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-dcserver:hover {
+    color: white;
+}
+
+.span-creatorevents {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-creatorevents:hover {
+    color: white;
+}
+
+.span-laufbahn {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-laufbahn:hover {
+    color: white;
+}
+
+.span-fmprojects {
+    background-color: #82a6d226;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.span-fmprojects:hover {
+    color: white;
+}
